@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "zhang weili" => "zhangweili@appicplay.com" }
   spec.platform     = :ios
-  spec.source       = { :http => "https://img.atomhike.com/sdk/Mediation/APSDK/APSDK_IOS_v#{spec.version}_76c2f83e-3a7a-4bce-91a6-39ad61328180_1678958248_OL.zip"}
+  spec.source       = { :http => "https://imgsdk.apicmob.com/Mediation/APSDK/APSDK_IOS_v#{spec.version}_76c2f83e-3a7a-4bce-91a6-39ad61328180_1678958248_OL.zip"}
   spec.requires_arc = true
   spec.ios.deployment_target = '10.0'
   spec.libraries = "c++", "z", "resolv.9"
